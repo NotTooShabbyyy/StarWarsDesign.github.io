@@ -69,8 +69,8 @@ nav .nav-row:nth-child(2) {
 nav .nav-row:nth-child(2) li {
     border-right: 2px solid rgb(240, 240, 240);
     background-color: rgb(119, 50, 50);
-    width: 124px;
-    padding: 10.2px 0;
+    width: 129px;
+    padding: 12px 0;
     letter-spacing: 0px;
     text-align: center;
     color: rgba(255, 255, 255, 0.61);
@@ -140,7 +140,7 @@ body {
    margin-top: -74px;
    margin-left: 74.4px;
 
-   box-shadow: 0 0 20px 14.5px rgb(153, 21, 21);
+   box-shadow: 0 0 16px 14.5px rgb(140, 21, 21);
 }
 
 
