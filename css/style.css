@@ -22,6 +22,13 @@ html, body {
     height: 100%;
 }
 
+
+
+.container {
+    max-width: 1440px;
+   
+}
+
 body {
     color: white;
 }
@@ -69,17 +76,17 @@ nav .nav-row:nth-child(2) {
 
 
 nav .nav-row:nth-child(2) li {
-    border-right: 2.6px solid rgb(220, 220, 220);
-    background-color: rgb(119, 50, 50);
+    border-right: 4px solid rgb(229, 229, 229);
+    background-color: rgb(143, 12, 14);
     border-radius: 0px;
     width: 140px;
     padding: 9.1px 0;
     letter-spacing: 0.2px !important;
     text-align: center;
-    color: rgba(255, 255, 255, 0.61);
+    color: rgb(255, 255, 255);
     font-weight: 550;
 
-    opacity: 0.5;
+    opacity: 0.62;
 
     opacity: transparent;
 
@@ -97,10 +104,9 @@ nav .nav-row:nth-child(2) li:hover {
 
 
 nav .nav-row:nth-child(2) li:nth-child(2) {
-    border-left: 2.6px solid rgb(240, 240, 240);
-    background-color: rgb(170, 21, 21);
+    border-left: 4.3px solid rgb(229, 229, 229);
     color: #fff;
-    opacity: 0.92;
+    opacity: 1;
 }
 
 
@@ -114,7 +120,7 @@ nav {
 }
 
 body {
-    background-image: url("/images/darthVader.jpg");
+    background-image: url("../images/darthVader.jpg");
     background-size: cover;
     background-position: top 0px left 490px;
     background-repeat: no-repeat;
@@ -135,6 +141,9 @@ body {
 }
 
 .main-modes-container {
+    position: aboslute;
+    top: 0;
+    left: 50px;
     display: grid;
     grid-template-areas: "quickMatch quickMatch fallenOrd fallenOrd"
                          "quickMatch quickMatch squadron squadron";
@@ -145,7 +154,10 @@ body {
    justify-content: flex-start;
    margin-top: -70px;
    margin-left: 85px;
-   box-shadow: 0 0 16px 14.5px rgb(140, 21, 21);
+   
+   border-top: 12px solid rgb(210, 210, 210);
+   border-bottom: 12px solid rgb(210, 210, 210);
+   box-shadow: 0 0 16px 14.5px rgb(140, 21, 21);;
 }
 
 
