@@ -151,7 +151,7 @@ body {
     grid-template-areas: "quickMatch quickMatch fallenOrd fallenOrd"
                          "quickMatch quickMatch squadron squadron";
 
-   height: 400px;
+   height: 350px;
    width: 850px;
    column-gap: 0px !important;
    justify-content: flex-start;
